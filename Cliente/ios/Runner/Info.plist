@@ -45,5 +45,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>iRecycle needs to take photos.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>iRecycle do not use microphone.</string>
 </dict>
 </plist>
