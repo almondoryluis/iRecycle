@@ -80,6 +80,7 @@ Donde los elementos `ObjectData` tienen la siguiente estructura:
 ## Modelo
 
 El modelo utilizado para realizar la clasificación fue obtenido de https://huggingface.co/AprendeIngenia/recyclingAI.
+
 Referencias:
 * https://github.com/AprendeIngenia/reciclaje_ai
 * https://youtu.be/PSFw_ipK3ug
