@@ -76,3 +76,7 @@ Donde los elementos `ObjectData` tienen la siguiente estructura:
    en caso de una excepción no atrapada por este endpoint, consultar:
    * https://fastapi.tiangolo.com/reference/exceptions/#fastapi.HTTPException
    * https://fastapi.tiangolo.com/tutorial/handling-errors/
+
+## Modelo
+
+El modelo utilizado para realizar la clasificación fue obtenido de https://huggingface.co/AprendeIngenia/recyclingAI
