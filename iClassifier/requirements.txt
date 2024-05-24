@@ -1,0 +1,3 @@
+ultralytics
+torch
+fastapi[all]
