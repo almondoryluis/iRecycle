@@ -76,6 +76,7 @@ Donde los elementos `ObjectData` tienen la siguiente estructura:
    en caso de una excepción no atrapada por este endpoint, consultar:
    * https://fastapi.tiangolo.com/reference/exceptions/#fastapi.HTTPException
    * https://fastapi.tiangolo.com/tutorial/handling-errors/
+   * La documentación autogenerada en http://localhost:8000/docs#/default/classify_objects_classify_post, durante la ejecución de este servicio.
 
 ## Modelo
 
