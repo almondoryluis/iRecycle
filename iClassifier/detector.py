@@ -56,11 +56,12 @@ class DetectedObject:
 class ObjectDetector:
     font_filename = "./Roboto/Roboto-Regular.ttf"
     font_stroke_width = 1
+    font_size = 24
     font: ImageFont.FreeTypeFont
     model_filename = "./Modelo/best.pt"
     model: DetectionModel
 
-    labels_en = ["Metal", "Glass", "Plastic", "Carton", "Medical"]
+    labels_en = ["Metal", "Glass", "Plastic", "Cardboard", "Medical"]
     labels_es = ["Metal", "Vidrio", "Plástico", "Cartón", "Residuo médico"]
 
     labels = [labels_en, labels_es]
@@ -71,7 +72,7 @@ class ObjectDetector:
     padding = 8
 
     def __init__(self) -> None:
-        self.font = ImageFont.truetype(font=self.font_filename, size=24)
+        self.font = ImageFont.truetype(font=self.font_filename, size=font_size)
         self.model = YOLO(self.model_filename)
 
     def detect_objects_in_image(
