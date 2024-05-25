@@ -50,7 +50,7 @@ Donde los elementos `ObjectData` tienen la siguiente estructura:
 ~~~typescript
 {
     class_index: int,    // índice de la clase del objeto detectado,
-                         // donde [0 = 'metal', 1 = 'glass', 2 = 'plastic', 3 = 'carton', 4 = 'medical']
+                         // donde [0 = 'metal', 1 = 'glass', 2 = 'plastic', 3 = 'cardboard', 4 = 'medical']
     class_name: string,  // nombre de la clase (etiqueta) del objeto detectado,
                          // según el idioma seleccionado por language_index en la Entrada
     confidence: int,     // entero del rango [0, 100] que indica el nivel de confianza de la clasificación realizada
