@@ -64,10 +64,10 @@ Donde los elementos `ObjectData` tienen la siguiente estructura:
 **NOTAS**:
 1. La Salida de este endpoint es válida
    si y sólo si se recibe el código de estado HTTP 200 OK.
-2. Si este endpoint atrapa alguna excepción en el proceso de clasificacíon,
-   también devuelve una respuesta (Salida) con el código de estado HTTP 200 OK
+2. Este endpoint atrapa excepciones relacionadas con el proceso de clasificación,
+   y devuelve una respuesta (Salida) con el código de estado HTTP 200 OK
    y el respectivo mensaje de error en el campo `error_message` de la Salida.
-3. Si ocurre alguna excepción no atrapada por este endpoint,
+4. Si ocurre alguna excepción no atrapada por este endpoint,
    el framework utilizado (FastAPI) devuelve una respuesta
    con un código de estado HTTP diferente de 200
    y un texto de tipo `application/json` con datos sobre el error.
