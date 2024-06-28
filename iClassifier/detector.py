@@ -72,7 +72,7 @@ class ObjectDetector:
     padding = 8
 
     def __init__(self) -> None:
-        self.font = ImageFont.truetype(font=self.font_filename, size=font_size)
+        self.font = ImageFont.truetype(font=self.font_filename, size=self.font_size)
         self.model = YOLO(self.model_filename)
 
     def detect_objects_in_image(
