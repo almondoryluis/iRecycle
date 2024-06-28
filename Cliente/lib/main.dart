@@ -11,9 +11,9 @@ late List<CameraDescription> _cameras;
 const ResolutionPreset cameraResolutionPreset = ResolutionPreset.low;
 
 final dio = Dio(BaseOptions(
-  baseUrl: 'http://192.168.0.86:8000',
+  baseUrl: 'http://192.168.0.18:8000',
   connectTimeout: const Duration(seconds: 5),
-  receiveTimeout: const Duration(seconds: 60 * 3),
+  receiveTimeout: const Duration(minutes: 3),
 ));
 
 Future<void> main() async {
